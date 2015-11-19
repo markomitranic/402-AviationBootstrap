@@ -1,6 +1,14 @@
 # Let's make bootstrap version of Aviation School, by using Less and Gulp
 =========================================================================
 
+# Instructions
+- You can find Less files in assets/less/
+- Make sure to put every component as a separate less file ie. custom/layout.less, custom/header.less ...
+- Type HTML first and then mess with less :) 
+- make sure to use bootstrap properly and set all the variables in assets/less/bootstrap/variables.less
+- don't use !important
+
+
 # Assignment submission
 
 1. To start, [**fork** the repository][forking].
