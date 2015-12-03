@@ -39,16 +39,25 @@
 		padding: 0;
 	}
 	ul {
-		display: flex;
-		justify-content: space-between;
-		align-items: stretch;
-		flex-wrap: wrap;
 		list-style-type: none;
+		overflow: hidden;
+	    padding: 0;
+	    margin: 0;
 	}
 	li {
+		float: left;
 		color: @menu-color;
 		font-size: 16px;
 		line height: 37px;
-
+		a:hover, .active {
+		    background: white;
+		    border-bottom: 4px solid red;
+		}
+		a {
+			padding: 0 23px;
+		    height: 36px;
+		    display: block;
+		    box-sizing: content-box;
+		}
 	}
 }
